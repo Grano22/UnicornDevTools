@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./prod/",
+        "target": "es5",
+        //"jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+    },
+    "files": ["UnicornDevTools.ts"],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
